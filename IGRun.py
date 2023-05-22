@@ -133,7 +133,7 @@ def change_theme():
 		open("data/color_rich.txt","w").write("[#AAAAAA]")
 		open("data/color_table.txt","w").write("#AAAAAA")
 	time.sleep(2)
-	prints(Panel("[white]berhasil mengganti tema, silahkan jalankan ulang scriptnya python run.py",style=f"{color_table}"));time.sleep(2);exit()
+	prints(Panel("[white]berhasil mengganti tema, silahkan jalankan ulang scriptnya python IGRun.py",style=f"{color_table}"));time.sleep(2);exit()
 
 USN="Mozilla/5.0 (Linux; Android 7.0; SM-G930F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36 Instagram 24.0.0.12.201 Android (24/7.0; 420dpi; 1080x1920; samsung; SM-G930F; herolte; samsungexynos8890; pt_PT)"
 USN="Mozilla/5.0 (Linux; Android 8.0.0; ONEPLUS A3003 Build/OPR1.170623.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 Instagram 92.0.0.15.114 Android (26/8.0.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3T; qcom; de_DE; 153386780)"
@@ -908,7 +908,7 @@ class instagram:
 				usr=s.split("|")[0]
 				pwd=s.split("|")[1]
 				self.checkAPI(usr,pwd)
-			prints(Panel(f"{P2}proses cek akun selesai, silahkan jalankan ulang scriptnya python run.py",width=80,padding=(0,3),style=f"{color_table}"))
+			prints(Panel(f"{P2}proses cek akun selesai, silahkan jalankan ulang scriptnya python IGRun.py",width=80,padding=(0,3),style=f"{color_table}"))
 
 		elif c in ('5','05'):
 			menu_bot()
