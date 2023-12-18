@@ -7,7 +7,7 @@ Welcome
   
 #### ★ Social Accounts ★
 <a href="https://www.facebook.com/freya.xyz"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>  
-# ✭ Variable-Name ; Encryptions
+# ✭ Lambda-Rot13 ; Encryptions
 ### Obfuscator Code By : Ferly Afriliyan
   
 ### • - Made With [ Ferly Afriliyan X. (ferlyafriliyan) ]
@@ -21,12 +21,12 @@ pkg update && pkg upgrade
 
 ```python
 termux-change-repo
-rm -rf $HOME/Enc-Moji
+rm -rf $HOME/lambda-rot13
 pkg update && pkg upgrade -y
 pkg install python git -y
 pkg install python-pip
-git clone https://github.com/ferlyafriliyan/Variable_Name
-cd Variable_Name
+git clone https://github.com/ferlyafriliyan/lambda-rot13
+cd lambda-rot13
 git pull
 pip3 install -r requirements.txt
 ```
